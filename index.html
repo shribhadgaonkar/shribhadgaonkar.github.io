@@ -39,6 +39,16 @@
             transform: translateY(-5px);
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
         }
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            border-radius: 9999px;
+            background-color: #e0f2fe;
+            color: #0369a1;
+            font-size: 0.875rem;
+            font-weight: 700;
+            padding: 0.35rem 0.75rem;
+        }
         /* Smooth scrolling */
         html {
             scroll-behavior: smooth;
@@ -100,7 +110,11 @@
             </div>
             <h1 class="text-5xl font-extrabold mb-4 leading-tight">Hello, I'm <span class="text-yellow-300">Shrirang</span>!</h1>
             <p class="text-xl mb-8 max-w-2xl mx-auto">
-                I’m a passionate technology enthusiast who believes in learning by doing. I dive deep into hands-on experiments that bring ideas to life. The future holds exciting challenges—and I’m eager to explore how breakthroughs in AI and machine learning can reshape the way we live and work. I love engaging in thoughtful discussions around algorithms, innovation, and the endless possibilities technology offers. Feel free to reach out and connect!.
+                I am an automotive software professional with extensive experience in control systems, embedded software, simulation, validation, code generation, and engineering automation.
+                <br><br>
+                I have led vehicle-data-driven simulation platforms, automated software-evaluation workflows, continuous-integration systems, and enterprise engineering tools for production automotive software.
+                <br><br>
+                My current work and graduate studies extend this foundation into artificial intelligence, robotics, computer vision, visual SLAM, edge AI, and autonomous-system evaluation.
             </p>
             <a href="#projects" class="bg-white text-blue-600 px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">View My Work</a>
         </div>
@@ -157,124 +171,334 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-16 px-4">
-        <div class="container mx-auto">
-            <h2 class="section-title text-4xl text-center mb-12">My Skills</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Skill Card 1 -->
-                <div class="bg-white p-8 rounded-xl shadow-md card border border-gray-200">
-                    <h3 class="text-2xl font-bold mb-4 text-blue-700">Python Development</h3>
-                    <p class="text-gray-600 mb-4">
-                        Proficient in Python for development, scripting, and data analysis. Worked Gitlab automation using python.
+    <!-- Technical Skills -->
+    <section id="skills" class="px-4 py-16">
+        <div class="container mx-auto max-w-6xl">
+            <div class="mb-10 text-center">
+                <h2 class="section-title text-4xl">Technical Skills</h2>
+            </div>
+
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <article class="card rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <h3 class="text-xl font-extrabold text-blue-700">Automotive Controls & Embedded Software</h3>
+                    <p class="mt-3 leading-relaxed text-slate-600">
+                        MATLAB, Simulink, Embedded Coder, AUTOSAR, CAN, C, TargetLink, ISO 26262,
+                        ASIL, MIL/SIL, and model-based development.
                     </p>
-                    <ul class="list-disc list-inside text-gray-500">
-                        <li>Request API</li>
-                        <li>Data Collection/processing</li>
-                        <li>Pandas, NumPy, Scikit Learn</li>
-                    </ul>
-                </div>
-                <!-- Skill Card 2 -->
-                <div class="bg-white p-8 rounded-xl shadow-md card border border-gray-200">
-                    <h3 class="text-2xl font-bold mb-4 text-green-700">Controls Development</h3>
-                    <p class="text-gray-600 mb-4">
-                        Solid understanding of controls development for Automotive applications. Worked on software development of transmission systems such as Transfer Case and Engine.
+                </article>
+
+                <article class="card rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <h3 class="text-xl font-extrabold text-emerald-700">Simulation, Evaluation & Automation</h3>
+                    <p class="mt-3 leading-relaxed text-slate-600">
+                        Vehicle simulation, diagnostic simulation, regression testing, GitLab CI,
+                        Jenkins, Polyspace, static code analysis, and engineering workflows.
                     </p>
-                    <ul class="list-disc list-inside text-gray-500">
-                        <li>Controls Development</li>
-                        <li>PID Controls</li>
-                        <li>Automotive Application</li>
-                    </ul>
-                </div>
-                <!-- Skill Card 3 -->
-                <div class="bg-white p-8 rounded-xl shadow-md card border border-gray-200">
-                    <h3 class="text-2xl font-bold mb-4 text-purple-700">Simulation and Matlab App Development</h3>
-                    <p class="text-gray-600 mb-4">
-                        Strong hands on experince with Simulation of Control system and proficient in App development in Matlab.
+                </article>
+
+                <article class="card rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <h3 class="text-xl font-extrabold text-indigo-700">Python & Data</h3>
+                    <p class="mt-3 leading-relaxed text-slate-600">
+                        Python, Pandas, NumPy, SciPy, Matplotlib, scikit-learn, data cleaning,
+                        visualization, scripting, and automation.
                     </p>
-                    <ul class="list-disc list-inside text-gray-500">
-                        <li>App + Production tool development</li>
-                        <li>Simulink</li>
-                        <li>Matlab Scripting</li>
-                    </ul>
-                </div>
-                <!-- Add more skill cards as needed -->
+                </article>
+
+                <article class="card rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <h3 class="text-xl font-extrabold text-purple-700">AI, Computer Vision & Robotics</h3>
+                    <p class="mt-3 leading-relaxed text-slate-600">
+                        OpenCV, YOLO, stereo vision, depth estimation, visual SLAM, ROS 2,
+                        Jetson Orin Nano, PyTorch, and edge AI.
+                    </p>
+                </article>
+
+                <article class="card rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <h3 class="text-xl font-extrabold text-cyan-700">Technical Leadership</h3>
+                    <p class="mt-3 leading-relaxed text-slate-600">
+                        Product ownership, cross-functional collaboration, tool strategy, process development,
+                        stakeholder communication, mentoring, and engineering-quality improvement.
+                    </p>
+                </article>
+
+                <article class="card rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <h3 class="text-xl font-extrabold text-rose-700">MLOps &amp; Production AI Foundations</h3>
+                    <p class="mt-3 leading-relaxed text-slate-600">
+                        Git, GitLab, Jenkins, CI/CD, Docker, Linux/Ubuntu, automated testing,
+                        reproducible workflows, model integration, and edge deployment.
+                    </p>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="bg-gray-50 py-16 px-4">
-        <div class="container mx-auto">
-            <h2 class="section-title text-4xl text-center mb-12">My Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Project Card 1 -->
-                <div class="bg-white p-6 rounded-xl shadow-md card border border-gray-200">
-                    <img src="images/Hackathon/1777315896984.jpg" alt="SentinelGlove Project" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h3 class="text-2xl font-bold mb-2 text-cyan-700">SentinelGlove (Instinctive Edge AI)</h3>
-                    <p class="text-gray-600 mb-4">
-                        A smart glove for industrial safety built with Rust on ESP32-S3 for memory-safe reliability. The edge AI pipeline enables low-latency gesture recognition and real-time machinery control in hazardous zones, with a scalable client-server architecture for deployment.
-                    </p>
-                    <div class="flex flex-wrap gap-3">
-                        <a href="https://lnkd.in/e9RxTmYw" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">View on Devpost &rarr;</a>
-                        <a href="https://github.com/robcholz/SmartGlove" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">View GitHub Repo &rarr;</a>
+    <!-- Featured Projects -->
+    <section id="projects" class="bg-slate-100 px-4 py-16">
+        <div class="container mx-auto max-w-7xl">
+            <div class="mb-10 text-center">
+                <h2 class="section-title text-4xl">Featured Autonomous Systems & AI Projects</h2>
+                <p class="mx-auto mt-4 max-w-3xl text-slate-600">
+                    Public projects demonstrating hands-on work in embedded AI, perception, localization,
+                    robotics, and data-driven engineering.
+                </p>
+            </div>
+
+            <div class="grid gap-7 md:grid-cols-2 lg:grid-cols-3">
+                <!-- SentinelGlove -->
+                <article class="card overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+                    <img
+                        src="images/Hackathon/1777315896984.jpg"
+                        alt="SentinelGlove edge AI project"
+                        class="h-64 w-full object-cover"
+                    >
+                    <div class="p-7">
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="tag">Rust</span>
+                            <span class="tag">ESP32-S3</span>
+                            <span class="tag">Edge AI</span>
+                            <span class="tag">PyTorch</span>
+                        </div>
+                        <h3 class="text-2xl font-extrabold text-cyan-700">
+                            SentinelGlove &mdash; Edge-AI Industrial Safety Interface
+                        </h3>
+                        <p class="mt-3 leading-relaxed text-slate-600">
+                            Developed a wearable industrial-safety interface using flex and motion-sensor data,
+                            memory-safe embedded firmware, and an on-device neural-network pipeline for gesture-based
+                            machinery-control commands.
+                        </p>
+                        <p class="mt-3 text-sm font-semibold text-slate-700">
+                            Focus: Embedded integration, sensor data, edge inference, rapid prototyping, and system architecture.
+                        </p>
+                        <div class="mt-5 flex flex-wrap gap-4">
+                            <a
+                                href="https://lnkd.in/e9RxTmYw"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="font-bold text-blue-700 hover:underline"
+                            >
+                                View on Devpost &rarr;
+                            </a>
+                            <a
+                                href="https://github.com/robcholz/SmartGlove"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="font-bold text-blue-700 hover:underline"
+                            >
+                                View GitHub Repository &rarr;
+                            </a>
+                        </div>
                     </div>
+                </article>
+
+                <!-- SLAM -->
+                <article class="card overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+                    <img
+                        src="images/project/tubeimage.jpg"
+                        alt="Multi-level parking visual SLAM project"
+                        class="h-64 w-full object-cover"
+                    >
+                    <div class="p-7">
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="tag">ORB-SLAM3</span>
+                            <span class="tag">Visual-Inertial SLAM</span>
+                            <span class="tag">Localization</span>
+                            <span class="tag">Mapping</span>
+                        </div>
+                        <h3 class="text-2xl font-extrabold text-sky-700">
+                            Visual-Inertial SLAM for Multi-Level Parking
+                        </h3>
+                        <p class="mt-3 leading-relaxed text-slate-600">
+                            Investigated visual-inertial localization and mapping for GPS-denied parking
+                            environments using ORB-SLAM3, dataset integration, calibration workflows,
+                            trajectory export, and experimental analysis.
+                        </p>
+                        <p class="mt-3 text-sm font-semibold text-slate-700">
+                            Focus: Environment setup, sensor configuration, localization workflow, evaluation planning, and parking use-case design.
+                        </p>
+                        <a
+                            href="https://github.com/shribhadgaonkar/MultiLevelCarParParkingSLAM"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="mt-5 inline-block font-bold text-blue-700 hover:underline"
+                        >
+                            View Project &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- YOLO Edge -->
+                <article class="card overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+                    <img
+                        src="images/project/Hiwonmder_yolo_detection.gif"
+                        alt="YOLO object detection on a Jetson-based mobile robot"
+                        class="h-64 w-full object-cover"
+                    >
+                    <div class="p-7">
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="tag">YOLOv8</span>
+                            <span class="tag">ROS 2</span>
+                            <span class="tag">Jetson Orin Nano</span>
+                            <span class="tag">OpenCV</span>
+                        </div>
+                        <h3 class="text-2xl font-extrabold text-emerald-700">
+                            Real-Time Object Detection on Jetson & ROS 2
+                        </h3>
+                        <p class="mt-3 leading-relaxed text-slate-600">
+                            Developed a ROS 2 perception workflow for live YOLO inference on a Jetson-based
+                            mobile robot. Integrated camera topics, CvBridge, OpenCV visualization, and
+                            edge inference while resolving hardware and software compatibility challenges.
+                        </p>
+                        <p class="mt-3 text-sm font-semibold text-slate-700">
+                            Focus: ROS image pipelines, edge deployment, perception integration, debugging, and model limitations.
+                        </p>
+                        <a
+                            href="https://github.com/shribhadgaonkar/yolo-on-edge-demo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="mt-5 inline-block font-bold text-blue-700 hover:underline"
+                        >
+                            View Project &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- GaussianFoundry -->
+                <article class="card overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+                    <img
+                        src="images/project/SAM3_Image.png"
+                        alt="GaussianFoundry industrial vision project"
+                        class="h-64 w-full bg-slate-50 object-contain p-5"
+                    >
+                    <div class="p-7">
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Segmentation</span>
+                            <span class="tag">Embeddings</span>
+                            <span class="tag">Clustering</span>
+                        </div>
+                        <h3 class="text-2xl font-extrabold text-blue-700">
+                            GaussianFoundry &mdash; Multi-Camera Industrial Tool Localization
+                        </h3>
+                        <p class="mt-3 leading-relaxed text-slate-600">
+                            Developed an experimental industrial-vision workflow that processes multiple camera
+                            feeds, segments objects, creates visual embeddings, and clusters object representations
+                            to support tool-location queries.
+                        </p>
+                        <p class="mt-3 text-sm font-semibold text-slate-700">
+                            Focus: Multi-camera processing, object representation, unsupervised learning, and operator-facing queries.
+                        </p>
+                        <a
+                            href="https://github.com/shribhadgaonkar/GaussianFoundry"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="mt-5 inline-block font-bold text-blue-700 hover:underline"
+                        >
+                            View Project &rarr;
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Additional Projects -->
+            <div class="mt-12">
+                <h3 class="mb-6 text-center text-2xl font-extrabold text-slate-900">Additional Projects</h3>
+                <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                    <article class="card rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                        <img
+                            src="images/projects/app-deployment.svg"
+                            alt="Application Deployment Website project"
+                            class="mb-4 h-48 w-full rounded-xl bg-slate-50 object-contain p-5"
+                        >
+                        <h4 class="text-xl font-extrabold text-indigo-700">Application Deployment Website</h4>
+                        <p class="mt-2 text-slate-600">
+                            Created a web-based workflow for deploying Python applications from GitHub repositories.
+                        </p>
+                        <a
+                            href="https://github.com/shribhadgaonkar/CreateWebsiteForPythonApp"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="mt-4 inline-block font-bold text-blue-700 hover:underline"
+                        >
+                            View Project &rarr;
+                        </a>
+                    </article>
+
+                    <article class="card rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                        <img
+                            src="images/project/NewsOnWhatsApp.png"
+                            alt="Curated News on WhatsApp project"
+                            class="mb-4 h-48 w-full rounded-xl bg-slate-50 object-contain p-5"
+                        >
+                        <h4 class="text-xl font-extrabold text-green-700">Curated News on WhatsApp</h4>
+                        <p class="mt-2 text-slate-600">
+                            Built a Python automation that retrieves selected news through public APIs and delivers
+                            curated updates through WhatsApp using Twilio.
+                        </p>
+                        <a
+                            href="https://www.linkedin.com/posts/shrirang-bhadgaonkar-106651a3_funactivities-python-datasciences-activity-6690349806814060544-hOy2"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="mt-4 inline-block font-bold text-blue-700 hover:underline"
+                        >
+                            View Project on LinkedIn &rarr;
+                        </a>
+                    </article>
                 </div>
-                <!-- Project Card 2 -->
-                <div class="bg-white p-6 rounded-xl shadow-md card border border-gray-200">
-                    <img src="images/project/tubeimage.jpg" alt="Multi-Level Car Parking SLAM Project" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h3 class="text-2xl font-bold mb-2 text-sky-700">Multi-Level Car Parking SLAM</h3>
-                    <p class="text-gray-600 mb-4">
-                        Reproduction of the ORB-SLAM3 project focused on multi-level car parking localization and mapping workflows for robust visual SLAM experimentation.
+            </div>
+        </div>
+    </section>
+
+    <!-- Recognition -->
+    <section id="recognition" class="px-4 py-16">
+        <div class="container mx-auto max-w-6xl">
+            <div class="mb-10 text-center">
+                <h2 class="section-title text-4xl">Leadership, Recognition & Industry Engagement</h2>
+            </div>
+
+            <div class="grid gap-6 md:grid-cols-3">
+                <article class="card rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <p class="text-sm font-bold uppercase tracking-wide text-blue-600">Industry Engagement</p>
+                    <h3 class="mt-2 text-xl font-extrabold text-slate-900">MathWorks Advisory Board</h3>
+                    <p class="mt-3 leading-relaxed text-slate-600">
+                        Invited industry participant representing automotive engineering perspectives in
+                        discussions on modeling, simulation, embedded software, verification, code generation,
+                        and AI-enabled engineering workflows.
                     </p>
-                    <a href="https://github.com/shribhadgaonkar/MultiLevelCarParParkingSLAM" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">View Project &rarr;</a>
-                </div>
-                <!-- Project Card 3 -->
-                <div class="bg-white p-6 rounded-xl shadow-md card border border-gray-200">
-                    <img src="images/project/Hiwonmder_yolo_detection.gif" alt="YOLO on Edge Demo Project" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h3 class="text-2xl font-bold mb-2 text-emerald-700">YOLO on Edge Demo</h3>
-                    <p class="text-gray-600 mb-4">
-                        Live YOLOv8 object detection on a HiWonder JetAuto Pro (Jetson Orin Nano) using ROS 2 Humble. This project demonstrates real-time camera inference with a practical robotics workflow and edge deployment setup.
+                    <p class="mt-3 text-sm font-semibold text-slate-500">Participant in 2025 and 2026</p>
+                </article>
+
+                <article class="card rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <p class="text-sm font-bold uppercase tracking-wide text-indigo-600">Technical Presentation</p>
+                    <h3 class="mt-2 text-xl font-extrabold text-slate-900">Static Code Analysis for Large Components</h3>
+                    <p class="mt-3 leading-relaxed text-slate-600">
+                        Presented an engineering approach for applying static code analysis to large embedded-software components.
                     </p>
-                    <a href="https://github.com/shribhadgaonkar/yolo-on-edge-demo" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">View Project &rarr;</a>
-                </div>
-                <!-- Project Card 4 -->
-                <div class="bg-white p-6 rounded-xl shadow-md card border border-gray-200">
-                    <img src="images/projects/gaussian-foundry.svg" alt="GaussianFoundry Project" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h3 class="text-2xl font-bold mb-2 text-blue-700">GaussianFoundry</h3>
-                    <p class="text-gray-600 mb-4">
-                        A Gaussian-process based project focused on building reliable modeling workflows and practical experimentation for data-driven development.
+                    <p class="mt-3 text-sm font-semibold text-slate-500">MathWorks Advisory Board</p>
+                </article>
+
+                <article class="card rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <p class="text-sm font-bold uppercase tracking-wide text-emerald-600">Award</p>
+                    <h3 class="mt-2 text-xl font-extrabold text-slate-900">StarkHacks &mdash; Espressif Track</h3>
+                    <p class="mt-3 leading-relaxed text-slate-600">
+                        Earned second place for SentinelGlove, an embedded edge-AI industrial-safety concept.
                     </p>
-                    <a href="https://github.com/shribhadgaonkar/GaussianFoundry.git" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">View Project &rarr;</a>
-                </div>
-                <!-- Project Card 5 -->
-                <div class="bg-white p-6 rounded-xl shadow-md card border border-gray-200">
-                    <img src="images/projects/app-deployment.svg" alt="App Deployment Website Project" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h3 class="text-2xl font-bold mb-2 text-indigo-700">App Deployment Website</h3>
-                    <p class="text-gray-600 mb-4">
-                        A simple website which allows you to deploy your code from Github.
-                    </p>
-                    <a href="https://github.com/shribhadgaonkar/CreateWebsiteForPythonApp.git" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">View Project &rarr;</a>
-                </div>
-                <!-- Project Card 2 -->
-<!--                 <div class="bg-white p-6 rounded-xl shadow-md card border border-gray-200">
-                    <img src="https://placehold.co/400x250/60a5fa/ffffff?text=Project+2" alt="Project 2" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h3 class="text-2xl font-bold mb-2 text-blue-700">Calculus Plotter</h3>
-                    <p class="text-gray-600 mb-4">
-                        App to plot the calculus equation using Python. I am learning AI and ML and I want to visualize each and every concept, So I am developing this app.
-                    </p>
-                    <a href="#" class="text-blue-600 hover:underline font-semibold">View Project &rarr;</a>
-                </div> -->
-                <!-- Project Card 6 -->
-                <div class="bg-white p-6 rounded-xl shadow-md card border border-gray-200">
-                    <img src="images/projects/news-whatsapp.svg" alt="News on WhatsApp Project" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h3 class="text-2xl font-bold mb-2 text-green-700">News on WhatsApp</h3>
-                    <p class="text-gray-600 mb-4">
-                        A Python-based simple tool, which send News of my interest to my Whats app. A fun experiment, which uses Python deployed on Heroku, fetching BBC news APIs and sending information through Twillio platform.
-                    </p>
-                    <a href="https://www.linkedin.com/posts/shrirang-bhadgaonkar-106651a3_funactivities-python-datasciences-activity-6690349806814060544-hOy2?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX8lFYBTQaVRCFiWe6B4E1GrlbF_JZC_78" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">View Project on LinkedIn &rarr;</a>
-                </div>
-                <!-- Add more project cards as needed -->
+                    <div class="mt-4 flex flex-wrap gap-3">
+                        <a
+                            href="https://www.linkedin.com/posts/shrirang-bhadgaonkar-106651a3_edgeai-esp32-rust-ugcPost-7454603241788633088-XNlO"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="font-bold text-blue-700 hover:underline"
+                        >
+                            LinkedIn &rarr;
+                        </a>
+                        <a
+                            href="https://lnkd.in/e9RxTmYw"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="font-bold text-blue-700 hover:underline"
+                        >
+                            Devpost &rarr;
+                        </a>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
@@ -340,6 +564,83 @@
                     <a href="#" class="text-blue-600 hover:underline font-semibold">Read Article &rarr;</a>
                 </div> -->
                 <!-- Add more article cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience" class="bg-slate-100 px-4 py-16">
+        <div class="container mx-auto max-w-6xl">
+            <div class="mb-10 text-center">
+                <h2 class="section-title text-4xl">Professional Experience Highlights</h2>
+            </div>
+
+            <div class="space-y-7">
+                <article class="card rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <div class="mb-4 flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+                        <div>
+                            <h3 class="text-2xl font-extrabold text-slate-900">Cummins Inc.</h3>
+                            <p class="font-semibold text-blue-700">
+                                Automotive Software, Simulation, Evaluation & Engineering Tools
+                            </p>
+                            <p class="text-sm font-medium text-slate-500">Technical Leadership & Product Ownership</p>
+                        </div>
+                        <img
+                            src="images/logo/Cummins-Logo.png"
+                            alt="Cummins logo"
+                            class="h-12 w-auto self-start object-contain md:h-14"
+                        >
+                    </div>
+
+                    <ul class="grid gap-3 text-slate-700 md:grid-cols-2">
+                        <li class="flex gap-3"><span class="font-bold text-blue-600">&bull;</span><span>Led vehicle-data-driven simulation and automated evaluation of diagnostic control software.</span></li>
+                        <li class="flex gap-3"><span class="font-bold text-blue-600">&bull;</span><span>Developed Python workflows for processing and analyzing vehicle data used in simulation.</span></li>
+                        <li class="flex gap-3"><span class="font-bold text-blue-600">&bull;</span><span>Established MIL/SIL continuous-integration and regression-testing workflows.</span></li>
+                        <li class="flex gap-3"><span class="font-bold text-blue-600">&bull;</span><span>Developed AUTOSAR code-generation and engineering-automation tools for global development teams.</span></li>
+                        <li class="flex gap-3"><span class="font-bold text-blue-600">&bull;</span><span>Led Polyspace-based software assurance, secure-coding, and static-analysis processes.</span></li>
+                        <li class="flex gap-3"><span class="font-bold text-blue-600">&bull;</span><span>Collaborated with controls, diagnostics, cybersecurity, infrastructure, and engineering-tool teams.</span></li>
+                    </ul>
+                </article>
+
+                <article class="card rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <div class="mb-4 flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+                        <div>
+                            <h3 class="text-2xl font-extrabold text-slate-900">Magna Steyr</h3>
+                            <p class="font-semibold text-emerald-700">Automotive Controls & Electrification</p>
+                        </div>
+                        <img
+                            src="images/logo/magna-international.png"
+                            alt="Magna logo"
+                            class="h-12 w-auto self-start object-contain md:h-14"
+                        >
+                    </div>
+
+                    <ul class="space-y-3 text-slate-700">
+                        <li class="flex gap-3"><span class="font-bold text-emerald-600">&bull;</span><span>Developed and verified embedded control software for four-wheel-drive systems.</span></li>
+                        <li class="flex gap-3"><span class="font-bold text-emerald-600">&bull;</span><span>Maintained MIL/SIL simulation and regression-testing environments.</span></li>
+                        <li class="flex gap-3"><span class="font-bold text-emerald-600">&bull;</span><span>Evaluated e-drive control and diagnostic software against functional-safety requirements.</span></li>
+                    </ul>
+                </article>
+
+                <article class="card rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <div class="mb-4 flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+                        <div>
+                            <h3 class="text-2xl font-extrabold text-slate-900">Tata Consultancy Services / Nissan</h3>
+                            <p class="font-semibold text-indigo-700">Embedded Software & Model-Based Development</p>
+                        </div>
+                        <img
+                            src="images/logo/Tata_Consultancy_Services_Logo_2020-s1280.png"
+                            alt="Tata Consultancy Services logo"
+                            class="h-12 w-auto self-start object-contain md:h-14"
+                        >
+                    </div>
+
+                    <ul class="space-y-3 text-slate-700">
+                        <li class="flex gap-3"><span class="font-bold text-indigo-600">&bull;</span><span>Developed model-based software for automotive instrument-cluster systems.</span></li>
+                        <li class="flex gap-3"><span class="font-bold text-indigo-600">&bull;</span><span>Designed fuel estimation, driver-information, and warning-management algorithms.</span></li>
+                        <li class="flex gap-3"><span class="font-bold text-indigo-600">&bull;</span><span>Modernized legacy transmission software for model-based production code generation.</span></li>
+                    </ul>
+                </article>
             </div>
         </div>
     </section>
